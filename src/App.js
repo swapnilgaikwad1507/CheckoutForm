@@ -1,13 +1,17 @@
-import logo from './logo.svg';
-import './CheckoutForm.css';
-import CheckoutForm from "./CheckoutForm";
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import CheckoutFormUpdated from './screens/checkout/CheckoutFormUpdated';
+import ListOfProducts from './screens/productPage/ListOfProducts';
+import './screens/checkout/CheckoutForm.css';
 
 function App() {
   return (
-    <div >
-      <CheckoutForm />
-    </div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<ListOfProducts />} />
+          <Route path="/checkout" element={<CheckoutFormUpdated />} />
+        </Routes>
+      </BrowserRouter>
   );
 }
 

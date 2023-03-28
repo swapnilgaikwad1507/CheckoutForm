@@ -1,0 +1,22 @@
+.productParentContainer {
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .products {
+    margin-bottom: 20px;
+  }
+
+  .header{
+    background-color: gray;
+    height: 60px;
+  }
+
+  .cart-parent{
+    margin-top: 15px;
+    padding-right: 15px;
+    position: absolute;
+    right: 0;
+  }

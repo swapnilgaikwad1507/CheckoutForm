@@ -1,19 +1,29 @@
-.parent-container{
+.parent-container {
   padding: 30px;
 }
 
-.txtShipping{
+.txtShipping {
   margin-top: 50px;
   margin-bottom: 30px;
   color: cadetblue;
 }
 
-.txtCheckout{
+.txtCheckout {
   margin-top: 40px;
   color: cadetblue;
 }
 
-.btnSubmit{
+.label-name{
+  margin-top: 30px;
+}
+
+.input-field{
+  margin-top: 20px;
+  border-radius: 5px;
+  width: 2px;
+}
+
+.btnSubmit {
   background-color: brown;
   padding-left: 100px;
   padding-right: 100px;
@@ -25,15 +35,27 @@
   margin-top: 50px;
 }
 
-.input{
-  padding: 15px;
-  margin:10px 0px;
+.input {
+  /* padding: 15px; */
+  /* margin: 5px 0px; */
   border-radius: 5px;
   border: 1px solid gray;
 }
 
-.span{
-  font-size: 12px;
+.span {
+  font-size: 14px;
   padding: 3px;
+  margin-top: 5px;
   color: red;
+}
+
+.parent-product-card {
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.parent-cross {
+  right: 10%;
+  top: 10%;
+  position: absolute;
 }
